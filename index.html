@@ -798,7 +798,7 @@
 
                     Feel like :<p id="feel" style="display: inline-block;"></p>
                     Humidity :<p id="humidity"></p>
-                    Temperature :<p id="temp"></p>
+                    Temperature :<p id="tempe"></p>
                     Temp max :<p id="temp_max"></p>
                     Temp min :<p id="temp_min"></p>
 
@@ -900,7 +900,7 @@ temp_min
                     document.querySelector("#feel").innerHTML = response.data.main.feels_like + "°C";
 
                     document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-                    document.querySelector("#temp").innerHTML = response.data.main.temp + "°C";
+                    document.querySelector("#tempe").innerHTML = response.data.main.temp + "°C";
                     document.querySelector("#temp_max").innerHTML = response.data.main.temp_max + "°C";
                     document.querySelector("#temp_min").innerHTML = response.data.main.temp_min + "°C";
 
